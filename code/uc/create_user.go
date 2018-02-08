@@ -12,13 +12,13 @@ type User struct {
 }
 
 type Interactor struct {
-	UserRW UserReadWriter
+	ReadWriter
 }
 
-type UserReadWriter interface {
-	Create(User) (id int, err error)
-	Save(User) error
-	GetByID(id string) (User, error)
+type ReadWriter interface {
+	NewUser(User) (id int, err error)
+	SaveUser(User) error
+	GetUserByID(id string) (User, error)
 }
 
 func (i Interactor) CreateUser(name string, dateOfBirth time.Time) error {
@@ -31,7 +31,7 @@ func (i Interactor) CreateUser(name string, dateOfBirth time.Time) error {
 		return err
 	}
 
-	id, err := i.UserRW.Create(user)
+	id, err := i.ReadWriter.NewUser(user)
 	if err != nil {
 		return err
 	}
