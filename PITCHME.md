@@ -56,6 +56,9 @@ Là où tout est “branché” ensemble
 ---
 ## Exemple
 ---?code=code/uc/create_user.go&lang=golang&title=Use Case
+@[1,3-6]()
+@[8-18]()
+@[19-28]()
 
 ---
 
