@@ -4,14 +4,75 @@
 
 ## Principe
 
-Abstraction et dépendances pointent dans la même direction
-
-![alt text](assets/image/mainDiagram.png)
-
+- Abstraction et dépendances pointent dans la même direction |
 
 ---
 
-## Template Features
+![alt text](assets/image/mainDiagram.png)
+
+---
+
+## DOMAIN
+
+Les règles métier générales
+
+- Constantes  |
+- Mécanismes généraux |
+
+---
+
+## USECASES
+
+Logique métier pure
+
+- Déclaration des interfaces nécessaires (non-implémentées) |
+- Utilisation de ces interfaces dans des procédures métier |
+- Utilisation des règles DOMAIN |
+
+---
+
+## IMPLEMENTATION
+
+Implémentation des interfaces définies à la couche USECASES
+- CRUD, routing HTTP, formatage JSON |
+- Appel de la couche USECASES |
+- Mapping entre structures de la couche USECASES et celles de la couche IMPLEMENTATION (dans les 2 sens) |
+
+---
+
+## CONFIG
+
+Helper pour settings de la couche IMPLEMENTATION (via env vars, flags etc.) :
+- Récupération de credentials  |
+- Infos de connexion (host, port etc.) |
+
+---
+
+## Main()
+
+Là où tout est “branché” ensemble
+- Instantiation des structures implémentant les interfaces grace au settings de la couche configuration. |
+
+---
+
+## Avantages
+- Tests  |
+  - Séparation stricte des niveaux d’abstraction. On peut donc tester depuis un système logique “un cran” plus complexe que celui testé. |
+- Possibilité d’acquérir des connaissances domaine avant les choix d’implémentation |
+- Pivot rapide  |
+- Méthodes niveau sémantique  |
+
+
+
+
+
+
+
+
+
+
+
+---
 
 - Code Presenting |
 - Repo Source, Static Blocks, GIST |
