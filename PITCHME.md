@@ -54,13 +54,17 @@ Là où tout est “branché” ensemble
 - Instantiation des structures implémentant les interfaces grace au settings de la couche configuration. |
 
 ---
+## Exemple
+---?code=code/uc/create_user.go&lang=golang&title=Use Case
+
+---
 
 ## Avantages
 - Tests  |
-  - Séparation stricte des niveaux d’abstraction. On peut donc tester depuis un système logique “un cran” plus complexe que celui testé. |
+  - Séparation stricte des niveaux d’abstraction. |
 - Possibilité d’acquérir des connaissances domaine avant les choix d’implémentation |
 - Pivot rapide  |
-- Méthodes niveau sémantique  |
+- Niveau sémantique des méthodes "métier" |
 
 ---
 
@@ -84,12 +88,6 @@ Là où tout est “branché” ensemble
 
 ---
 
-- Code Presenting |
-- Repo Source, Static Blocks, GIST |
-- Custom CSS Styling |
-- Slideshow Background Image |
-- Slide-specific Background Images |
-- Custom Logo, TOC, and Footnotes |
 
 ---?code=sample/go/server.go&lang=golang&title=Golang File
 
