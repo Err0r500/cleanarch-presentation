@@ -6,7 +6,7 @@
 
 Abstraction et dépendances pointent dans la même direction
 
-![alt text](https://github.com/Err0r500/cleanarch-presentation/assets/images/mainDiagram.png)
+![alt text](https://github.com/Err0r500/cleanarch-presentation/blob/master/assets/image/mainDiagram.png)
 
 
 ---
