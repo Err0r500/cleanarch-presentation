@@ -62,15 +62,25 @@ Là où tout est “branché” ensemble
 - Pivot rapide  |
 - Méthodes niveau sémantique  |
 
+---
 
+## Risques
 
+- Null Reference |
+- Connaissance implicite de l’implémentation |
 
+---
 
+## Null Reference
 
+- plug au runtime |
+- Instantiation d’un Interactor vide ou incomplet |
 
+---
 
+## Connaissance implicite
 
-
+- Interfaces propres à l’implémentation |
 
 ---
 
