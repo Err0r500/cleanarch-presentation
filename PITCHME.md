@@ -76,23 +76,16 @@ Là où tout est “branché” ensemble
 ## Risques
 
 - Null Reference |
-- Connaissance implicite de l’implémentation |
+  - plug au runtime |
+  - Instantiation d’un Interactor vide ou incomplet |
+- Connaissance implicite de l’implémentation |  
+  - Interfaces propres à l’implémentation |
 
 ---
 
-## Null Reference
-
-- plug au runtime |
-- Instantiation d’un Interactor vide ou incomplet |
+## Questions ?
 
 ---
-
-## Connaissance implicite
-
-- Interfaces propres à l’implémentation |
-
----
-
 
 ---?code=sample/go/server.go&lang=golang&title=Golang File
 
