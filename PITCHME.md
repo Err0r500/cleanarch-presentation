@@ -1,9 +1,9 @@
-# Clean architecture
+# clean architecture
 ---
 
 ## Principe
-### _( rien de bien nouveau )_ |
 
+- _( rien de bien nouveau )_ |
 - Abstraction et dépendances pointent dans la même direction |
 
 ---
