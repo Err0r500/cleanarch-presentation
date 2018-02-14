@@ -6,7 +6,7 @@
 _Rien de bien nouveau_
 
 - Abstraction et dépendances pointent dans la même direction |
-- Séparation strict des niveaux d'abstraction |
+- Séparation stricte des niveaux d'abstraction |
 - ... en particulier : de la logique et de son implémentation |
 
 ---
@@ -54,7 +54,7 @@ Helper pour settings de la couche IMPLEMENTATION (via env vars, flags etc.) :
 ## Main()
 
 Là où tout est “branché” ensemble
-- Instantiation des structures implémentant les interfaces grace au settings de la couche configuration. |
+- Instanciation des structures implémentant les interfaces grâce aux settings de la couche configuration. |
 
 ---
 ## Exemple
@@ -70,7 +70,7 @@ Là où tout est “branché” ensemble
 ## Avantages
 - Tests  |
   - Séparation stricte des niveaux d’abstraction. |
-- Possibilité d’acquérir des connaissances domaine avant les choix d’implémentation |
+- Possibilité d’acquérir des connaissances DOMAIN avant les choix d’implémentation |
 - Pivot rapide  |
 - Niveau sémantique des méthodes "métier" |
 
@@ -80,7 +80,7 @@ Là où tout est “branché” ensemble
 
 - Null Reference |
   - plug au runtime |
-  - Instantiation d’un Interactor vide ou incomplet |
+  - Instanciation d’un Interactor vide ou incomplet |
 - Connaissance implicite de l’implémentation |  
   - Interfaces propres à l’implémentation |
 
