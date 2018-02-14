@@ -6,6 +6,8 @@
 _Rien de bien nouveau_
 
 - Abstraction et dépendances pointent dans la même direction |
+- Séparation strict des niveaux d'abstraction
+- ... en particulier : de la logique et de son implémentation |
 
 ---
 
