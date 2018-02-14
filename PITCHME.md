@@ -3,7 +3,8 @@
 
 ## Principe
 
-- _( rien de bien nouveau )_ |
+_Rien de bien nouveau_
+
 - Abstraction et dépendances pointent dans la même direction |
 
 ---
